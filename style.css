@@ -3,54 +3,30 @@ body {
 	background-color: yellow;
 }
 
-
 #container {
-  background-color: white ; 
-  width: 1140px ;
-  height: 100vh ;
-  margin-left: auto ;
+  width: 1140px;
+  height: auto;
+  background-color: yellow;
+    margin-left: auto ;
   margin-right: auto;
 }
 
-#title {
-	width: 400px;
-  height: 130px;
-	float: left;
+#clipboard {
+   
+  background: url(board.jpg) no-repeat;
+  background-size: 1140px;
+  height: 1450px ;
+
+  margin-left: auto ;
+  margin-right: auto;
+  background-position: center;
+
 }
 
-#nav {
-	text-align: right;
-	line-height: 80px;
-	height: 130px;
-	width: 480px;
-	float: right;
-}
 
-a.homeselect {
-	text-decoration: none;
-  	color: black;
-}
-a.navselected{
-  text-decoration: none;
-  color: black;
-}
-a:hover.navselected{ 
-  color: red;
-}
-
-#footer {
-	clear: both;
-	padding: 60px 0px 10px 0px;
+#mobile-viewers {
+	width: 100%;
 	text-align: center;
-	font-size: 12px; 
-	bottom: 0px;
+	font-size: 14px;
 }
-#content {
-	text-align: center;
-	clear: both;
-	height: 100vh ;
-	padding: 0px;
-}
-
-
 

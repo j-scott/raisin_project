@@ -14,16 +14,22 @@
     {
      
       height: 640px;
+      margin-right: auto;
+      margin-left: auto;
       background: url(evolvetest.jpg) no-repeat;
       background-size: 640px;
       background-position: center;
+      width: 640px;
     }
     .imgBox:hover {
       
       height: 640px;
       background: url(wikitest.jpg) no-repeat;
-       background-size: 640px;
+      background-size: 640px;
       background-position: center;
+      margin-right: auto;
+      margin-left: auto;
+      width: 640px;
     }
   </style>
 <!-- For Mouse Over Image Swap -->
@@ -40,89 +46,134 @@
 
 
 <body>
+<div id="container">
+
+  <div id="Make-Raisins" >
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div></div> hello world
+           <div class="imgBox"></div>
+           
+         
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-     <div class="imgBox">
+
+      <a href="https://www.wikihow.com/Make-Raisins">https://www.wikihow.com/Make-Raisins</a>
   </div>
 
-<br>
-<br>
-<!-- raisin spinning -->
-<div style="text-align:center;">
-<iframe src="https://player.vimeo.com/video/417603523?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1&autopause=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
- </div>
-<br>
-<br>
-<!-- twine -->
-<div style="text-align:center;">
-  <iframe src="https://james-scott.uk/twine_raisin/" width=1000px height=260px style="border:0"></iframe> 
-</div>
+     <br><br><br><br><br>
+     <br>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<!-- peristalsis -->
-<div style="text-align:center;">
-<iframe src="https://player.vimeo.com/video/422933223?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1&autopause=0" width="640" height="800" frameborder="0" allow="autoplay"></iframe>
-</div>
+  <div id="clipboard">
+     <br><br><br><br><br>
+     <br><br><br><br><br>
+     <br><br><br><br><br>
+     <br><br><br><br><br>
+     
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<!-- mouseover video start stop -->
+  <!-- raisin spinning -->
+      <div style="text-align:center; padding-right: 80px;">
+      <iframe src="https://player.vimeo.com/video/417603523?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1&autopause=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+       </div>
 
-<div class="videoWrapper" style="text-align:center;">
-    <iframe class="card-media-vimeo" id="player-603" src="https://player.vimeo.com/video/421920259?autoplay=0&loop=0&controls=1&autopause=0&muted=0" style="background-image: url(smol_raisin.jpg);" width="640" height="360" frameborder="0"></iframe>
-</div>
-<script src="https://player.vimeo.com/api/player.js"></script>
+      <br><br><br><br><br>
+      <br><br><br><br><br>
+      <br><br><br><br><br>
+      <br><br><br>
+      
+  <!-- twine -->
+      <div style="text-align:center; padding-right: 50px">
+        <iframe src="https://james-scott.uk/twine_raisin/" width=1000px height=245px style="border:0"></iframe> 
+      </div>
+  </div>
 
 
-<script>
-    /**
-     * Vimeo autoplay
-     */ 
-
-   jQuery('.card-media-vimeo').mouseover(function () {
-        var vplayer = jQuery("#" + this.id);
-        player = new Vimeo.Player(vplayer[0].id);
-        player.play();
-
- 
-        vplayer.mouseout(function () {         
-        player.unload();
-        });
-    });
-
-</script>
 
 
-    <div id="mobile-viewers">
-        <p>hydrate, dry, wait, repeat </p> <br>
-        <p>View on laptop/desktop only. </p> <br>
-        <p>Thank you. </p>
+
+
+
+
+      <br><br><br><br><br>
+      <br><br><br><br><br>
+      <br><br><br><br><br>
+   
+   <iframe src="https://player.vimeo.com/video/424166852?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <br><br><br><br><br>
+      <br><br><br><br><br>
+      <br><br><br><br><br>
+    <!-- peristalsis -->
+    <div style="text-align:center;">
+    <iframe src="https://player.vimeo.com/video/422933223?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1&autopause=0" width="640" height="800" frameborder="0" allow="autoplay"></iframe> <a href="https://en.wikipedia.org/wiki/Peristalsis">https://en.wikipedia.org/wiki/Peristalsis</a>
     </div>
-    <script src="mobile.js"></script>
 
+
+      <br><br><br><br><br>
+      <br><br><br><br><br>
+      <br><br><br><br><br>
+
+    
+
+
+
+
+
+
+
+
+
+    <!-- mouseover video start stop -->
+
+    <div class="videoWrapper" style="text-align:center;">
+        <iframe class="card-media-vimeo" id="player-603" src="https://player.vimeo.com/video/421920259?autoplay=0&loop=0&controls=1&autopause=0&muted=0" style="background-image: url(smol_raisin.jpg);" width="640" height="360" frameborder="0"></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+
+    <script>
+        /**
+         * Vimeo autoplay
+         */ 
+
+       jQuery('.card-media-vimeo').mouseover(function () {
+            var vplayer = jQuery("#" + this.id);
+            player = new Vimeo.Player(vplayer[0].id);
+            player.play();
+
+     
+            vplayer.mouseout(function () {         
+            player.unload();
+            });
+        });
+
+    </script>
+
+ <br><br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tYDXQQBojk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ <br><br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfFR-fYfrcDal3ZhpAjuTbLV8GAhvCXFjY1nblfHxWtee6bKg/viewform?embedded=true" width="640" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+ <!-- mobile viewers -->
+
+        <div id="mobile-viewers">
+            <p>hydrate, dry, wait, repeat </p> <br>
+            <p>View on laptop/desktop only. </p> <br>
+            <p>Thank you. </p>
+        </div>
+        <script src="mobile.js"></script>
+
+</div>
 </body>
 </html>
